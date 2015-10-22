@@ -1,0 +1,15 @@
+group 'com.kingsoft.sendemail'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile 'javax.mail:mail:1.4.7'
+}
